@@ -34,3 +34,17 @@ c) `O(n)`, for a given n, the loop runs n times. It is similar to a for loop and
 ```
 
 ## Exercise II
+
+`f` = number of floor
+`n` = n-story of the building
+
+```python
+'''
+  1. Find the middle floor of the building and drop an egg from it.
+  2. If the egg breaks, you can eliminate the top half of the floors since the egg will break from anywhere past that point.
+  3. If the egg doesn't break, you can eliminate the bottom half of the floors since the egg won't break past that point.
+  4. Find the middle floor from the remaining floors and repeat until you reach the minimum n-story.
+'''
+```
+
+You're essentially implementing a binary search, which has a run-time complexity of O(log n).
